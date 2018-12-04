@@ -1,8 +1,11 @@
 
 ## git CRUD file
 $git add *
+
 $git commit -m "add all changes"
+
 $git push
+
 $git rm 
 
 
@@ -17,4 +20,5 @@ $git reflog #查看操作记录, 你使用 git reset --hard commitID 把本地�
 
 ## manage branch
 $git checkout -b feature_branch # create and check out feature branch
+
 $git status
