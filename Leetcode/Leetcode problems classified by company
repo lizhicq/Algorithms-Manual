@@ -16,8 +16,8 @@ Facebook(79)
 * 44 Wildcard Matching 17.4% Hard
 * 49 Group Anagrams 27.4% Medium
 * 50 Pow(x, n) 27.9% Medium
-56 Merge Intervals 25.3% Hard
-57 Insert Interval 23.8% Hard
+* 56 Merge Intervals 25.3% Hard
+* 57 Insert Interval 23.8% Hard
 67 Add Binary 27.4% Easy
 69 Sqrt(x) 25.2% Medium
 71 Simplify Path 21.9% Medium
