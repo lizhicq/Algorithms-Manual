@@ -22,7 +22,7 @@ Facebook(79)
 * 69 Sqrt(x) 25.2% Medium
 * 71 Simplify Path 21.9% Medium
 * 75 Sort Colors 34.7% Medium
- 76 Minimum Window Substring 21.2% Hard
+* 76 Minimum Window Substring 21.2% Hard
 * 78 Subsets 31.3% Medium
 * 79 Word Search 22.9% Medium
 * 80 Remove Duplicates from Sorted Array II 32.7% Medium
