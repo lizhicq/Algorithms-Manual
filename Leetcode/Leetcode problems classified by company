@@ -332,6 +332,7 @@ Zenefit(21)
 255 Verify Preorder Sequence in Binary Search Tree 37.1% Medium
 261 Graph Valid Tree 32.5% Medium
 317 Shortest Distance from All Buildings 31.1% Hard
+
 Amazon(41)
  1 Two Sum 23.0% Easy
 2 Add Two Numbers 23.0% Medium
@@ -374,6 +375,8 @@ Amazon(41)
 240 Search a 2D Matrix II 34.4% Medium
 242 Valid Anagram 41.7% Easy
 297 Serialize and Deserialize Binary Tree 27.8% Hard
+
+
 Microsoft(77)
 1 Two Sum 23.0% Easy
 2 Add Two Numbers 23.0% Medium
