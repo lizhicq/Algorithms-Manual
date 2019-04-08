@@ -51,10 +51,38 @@ def powerJump(game):
     return power
 
 
-if __name__ == "__main__":
-    a = [6, 6, 3, 9, 5, 1]
-    k = 12
-    print(numberOfPairs(a, k))
+def encryptionValidity(instructionCount, validityPeriod, keys):
+    keys = set(keys)
+    keys = list(keys)
+    keys.sort()
+    n = len(keys)
+    maxdiv = 0
+    for i in range(n-1, -1, -1):
+        key = keys[i]
+        div = 0
+        for j in range(i+1):
+            if key % keys[j] == 0:
+                #print(key, keys[j])
+                div += 1
+        maxdiv = max(maxdiv, div)
+        print(key, maxdiv)
 
-    game = '10101'
-    print(powerJump(game))
+    res1 = instructionCount * validityPeriod
+    res2 = maxdiv * 10**5
+
+    if res1 >= res2:
+        return (1, res2)
+    return (0, res2)
+
+if __name__ == "__main__":
+    print(encryptionValidity(92153207,72708429,
+                             [84,43326,31019,30340,92455,18514,98916,34254,79764,63486,54966,
+                              43181,27264,37582,19198,36054,20021,72826,81201,16630,34170,62711,
+                              33413,99643,93704,44210,73328,31262,86542,44454,8916,72691,
+                              10359,25550,48619,27806,39625,24336,97756,87955,60978,
+                              67021,85473,80076,26359,4748,90622,91913,75102,
+                              39006,8861,86504,98987,52279,80740,91899,94151,
+                              38827,70392,47785,8120,61494,1108,32928,76713,
+                              92310,62229,57613,46366,74709,21004,36723,5073,
+                              59301,31938,2375,81644,2327,92997,51050,
+                              15862,97510,93486,7902,16634]))
