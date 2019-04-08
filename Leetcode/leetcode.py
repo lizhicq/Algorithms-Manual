@@ -34,7 +34,27 @@ def numberOfPairs(a, k):
                 lo += 1
     return ans
 
-if __name__ == '__main__1':
+
+def powerJump(game):
+
+    tar = game[-1]
+    dis = 0
+    start = -1
+    power = 1
+    for i, ch in enumerate(game):
+        if ch == tar:
+            dis = i - start
+            start = i
+            power = max(power, dis)
+        else:
+            pass
+    return power
+
+
+if __name__ == "__main__":
     a = [6, 6, 3, 9, 5, 1]
     k = 12
     print(numberOfPairs(a, k))
+
+    game = '10101'
+    print(powerJump(game))
