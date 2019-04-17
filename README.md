@@ -6,7 +6,7 @@
 
 > 没有自学能力的人没有未来
 
-> - [Ch01 Binary Search](Ch01 Binary Search.ipynb)
+> - [Ch01 Binary Search](Ch01_Binary_Search.ipynb)
 > - [Ch02 Two Pointers and Sorting](Ch02 Two Pointers and Sorting.ipynb)
 > - [Ch03 BFS & Topological Sorting](Ch03 BFS & Topological Sorting.ipynb)
 > - [Ch04 Binary Tree](Ch04 Binary Tree.ipynb)
