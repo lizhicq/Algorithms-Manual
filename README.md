@@ -6,7 +6,7 @@
 
 **作者：lizhi**
 
-![](images/iter-relationships.gif)
+![](Images/iter-relationships.gif)
 
 > - [Ch01 Binary Search](Ch01_Binary_Search.ipynb)
 > - [Ch02 Two Pointers and Sorting](Ch02_Two_Pointers_and_Sorting.ipynb)
