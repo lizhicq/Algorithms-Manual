@@ -4,6 +4,10 @@
 
 > 没有自学能力的人没有未来
 
+**作者：lizhi**
+
+![](images/iter-relationships.png)
+
 > - [Ch01 Binary Search](Ch01_Binary_Search.ipynb)
 > - [Ch02 Two Pointers and Sorting](Ch02_Two_Pointers_and_Sorting.ipynb)
 > - [Ch03 BFS & Topological Sorting](Ch03_BFS&Topological_Sorting.ipynb)
