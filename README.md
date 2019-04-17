@@ -16,6 +16,5 @@
 > - [Ch06 DataStructure](Ch06_DataStructure.ipynb)
 > - [Ch07 Adanced DataStructure](Ch07_Adanced_DataStructure.ipynb)
 > - [Ch08 Dynamic Programming](Ch08_Dynamic_Programming.ipynb)
-> - [Ch08 Dynamic Programming](Ch08_Dynamic_Programming.ipynb)
 > - [Ch09 Realtime Issues](Ch09_Realtime_Issues.ipynb)
 > - [Ch10 Python interviews](Ch10_Python_interviews.ipynb)
