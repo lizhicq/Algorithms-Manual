@@ -7,7 +7,7 @@
 > - [Ch01 Binary Search](Ch01_Binary_Search.ipynb)
 > - [Ch02 Two Pointers and Sorting](Ch02_Two_Pointers_and_Sorting.ipynb)
 > - [Ch03 BFS & Topological Sorting](Ch03_BFS&Topological_Sorting.ipynb)
-> - [Ch04 Binary Tree](Ch04 Binary Tree.ipynb)
+> - [Ch04 Binary Tree](Ch04_Binary_Tree.ipynb)
 > - [Ch05 DFS & Graph](Ch05_DFS&Graph.ipynb)
 > - [Ch06 DataStructure](Ch06_DataStructure.ipynb)
 > - [Ch07 Adanced DataStructure](Ch07_Adanced_DataStructure.ipynb)
