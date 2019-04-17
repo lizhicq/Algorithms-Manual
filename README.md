@@ -1,12 +1,12 @@
 # Algorithms-Manual
 
-> One has no future if one couldn't teach themself<a href='#fn1' name='fn1b'><sup>[1]</sup></a>.
+> One has no future if one couldn't teach themself.
 
 > 没有自学能力的人没有未来
 
 **作者：lizhi**
 
-![](images/iter-relationships.png)
+![](images/iter-relationships.gif)
 
 > - [Ch01 Binary Search](Ch01_Binary_Search.ipynb)
 > - [Ch02 Two Pointers and Sorting](Ch02_Two_Pointers_and_Sorting.ipynb)
