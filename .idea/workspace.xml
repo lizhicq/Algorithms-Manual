@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75e3edd2-b165-458c-aaf5-52356c633605" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/LRU.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leetcode/test.py">
+        <entry file="file://$PROJECT_DIR$/main/LRU.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="336">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -44,13 +44,15 @@
         <option value="$PROJECT_DIR$/Leetcode/8.String to Integer (atoi).py" />
         <option value="$PROJECT_DIR$/Leetcode/leetcode.py" />
         <option value="$PROJECT_DIR$/Leetcode/test.py" />
+        <option value="$PROJECT_DIR$/main/LRU.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1080" />
-    <option name="width" value="1697" />
-    <option name="height" value="1600" />
+    <option name="x" value="2993" />
+    <option name="y" value="7" />
+    <option name="width" value="1934" />
+    <option name="height" value="1607" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,6 +62,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -67,16 +70,10 @@
               <item name="Algo-Manual" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algo-Manual" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algo-Manual" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algo-Manual" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,6 +122,9 @@
       <module name="Algo-Manual" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -167,6 +167,7 @@
       <workItem from="1554666122815" duration="5850000" />
       <workItem from="1554765467939" duration="1486000" />
       <workItem from="1554852442735" duration="88000" />
+      <workItem from="1555988389597" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="leet 8">
       <created>1542768365017</created>
@@ -228,7 +229,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10402000" />
+    <option name="totallyTimeSpent" value="10665000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -240,10 +241,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1080" y="0" width="1697" height="1600" extended-state="0" />
+    <frame x="2761" y="34" width="1697" height="1600" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14416616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14599878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,8 +305,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="266">
           <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/LRU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
