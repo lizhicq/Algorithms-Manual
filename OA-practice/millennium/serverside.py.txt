@@ -1,0 +1,44 @@
+from flask import Flask, jsonify
+from flask_restful import reqparse, abort, Api, Resource
+from datetime import datetime
+import os
+
+app = Flask(__name__)
+api = Api(app)
+
+def abort_if_todo_doesnt_exist(todo_id):
+    if todo_id not in TODOS:
+        abort(404, message="Todo {} doesn't exist".format(todo_id))
+
+
+class Todo(Resource):
+    def get(self, todo_id):
+        abort_if_todo_doesnt_exist(todo_id)
+        return jsonify(TODOS[todo_id])
+    
+    
+# Actually setup the Api resource routing here
+api.add_resource(Todo, '/log/<todo_id>')
+
+
+if __name__ == "__main__":
+    path = 'logs'
+    TODOS = {}
+
+    for log in os.listdir(path):
+        value = {}
+        log_path = os.path.join(path, log)
+        value["log_file_name"] = log
+        value['"error_count"'] = os.popen("grep -- '-E' " + log_path).read()
+        value['time_zone'] = os.popen("grep -A1 'Setting Timezone to' " + log_path).read()
+        value['start_time_est'] = os.popen("head -n1 " + log_path).read()
+        value['end_time_est'] = os.popen("tail -1f " + log_path).read()
+        value['session_length'] = str((datetime.strptime(value['end_time_est'], '%m/%d/%Y %H:%M:%S:%f')
+                                    - datetime.strptime(value['start_time_est'], '%m/%d/%Y %H:%M:%S:%f')).seconds/3600)
+        value['user_name'] = os.popen("grep 'cpt_server started with' " + log_path).read().split(' ')[5]
+        value['client_version'] = os.popen("grep 'cpt_server started with' " + log_path).read().split(' ')[10]
+        value['portfolios_loaded'] = os.popen("grep 'Gathering Portfolio View' " + log_path).read()
+        TODOS[log] = value
+
+
+    app.run(debug=True)
