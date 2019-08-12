@@ -1,0 +1,212 @@
+02/13/2014 22:39:51:463914 -I- Messages of severity "-M-" and above will now be logged.
+02/13/2014 22:39:51:464155 -I- Running Trading System version 7.1.3.24.ft.rh6.m64.lnx . Log file setup complete.
+02/13/2014 22:39:51:464227 -I- cpt_server started with command line "/apps/FOOBAR/version/prod/bin/cpt_server tlogin janedoe /apps/FOOBAR/users/janedoe/its/janedoe_140213_223945_62cfd65bfdaab56.pw activator IOR:010000001600000049444c3a4961732f416374697661746f723a312e30000000010000000000000064000000010102000c00000031302e38322e31312e3431007bae00000e000000febc8cfb5200007d07000000000000000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100 FUg2s3V80GaKKQEojvBqn62NaEs= root /apps/FOOBAR/objroot LP CLIENT_IP 10.24.32.154 SEAT_ID f5ebe13b-99a3-4f85-a574-f25db4947c9e SESSION_ID 893e2829-7160-4420-a8d0-25a2831de31f USER_AGENT jfe cmlib/7.1.3.33.ft.rh6.lnx FOOBAR Software Windows 7 6.1 x86 JavaTM SE Runtime Environment 1.6.0_25-b06 END timeout 6000 svr_name janedoe_140213_223945_62cfd65bfdaab56 "
+02/13/2014 22:39:51:604129 -I- [ics] The server is ready to queue requests
+02/13/2014 22:39:51:604372 -I- I_USER_PATH   is /apps/FOOBAR/users/janedoe/its
+02/13/2014 22:39:51:604388 -I- I_GROUP_PATH  is /apps/FOOBAR/groups/default
+02/13/2014 22:39:51:604395 -I- I_SYSTEM_PATH is /apps/FOOBAR/version/prod/lib/defaults
+02/13/2014 22:39:51:604533 -I- [ics] Registering server implementation with ORB
+02/13/2014 22:39:52:065478 -I- SQL-Message Handler[5703]: <Changed language setting to 'us_english'.>
+02/13/2014 22:39:52:065531 -I- (607bb50) New DBLIB connection
+02/13/2014 22:39:52:065561 -I- SQL (607bb50) = select @@spid
+02/13/2014 22:39:52:125718 -I- query returned
+02/13/2014 22:39:52:125763 -I- server process ID = 1010
+02/13/2014 22:39:52:360814 -I- SQL (607bb50) = EXECUTE getPrcPars_sp getUserDbIdRSA_sp,1,0
+02/13/2014 22:39:52:429628 -I- query returned
+02/13/2014 22:39:52:429697 -I- SQLRPC (607bb50) = getUserDbIdRSA_sp @u_name="janedoe", @u_id(OUTPUT)
+02/13/2014 22:39:52:541490 -I- procedure returned
+02/13/2014 22:39:52:541565 -I- SQL (607bb50) = EXECUTE getPrcPars_sp writeUserLog_sp,1,0
+02/13/2014 22:39:52:563185 -I- query returned
+02/13/2014 22:39:52:563236 -I- SQLRPC (607bb50) = writeUserLog_sp @ul_name="janedoe", @ul_event="CMD LN LOGIN"
+02/13/2014 22:39:52:600431 -I- procedure returned
+02/13/2014 22:39:52:604642 -I- [ics] PID: 20597
+02/13/2014 22:39:52:604666 -I- [ics] IOR:010000001d00000049444c3a5365727665722f436f6d707574655365727665723a312e3000000000010000000000000064000000010102000c00000031302e38362e31342e363500bd8b00000e000000fe0790fd5200005075000000000000000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100
+02/13/2014 22:39:52:676777 -I- [ics] Published IOR in /apps/FOOBAR/objroot/iorroot/hosts/imagrfplx4/janedoe_140213_223945_62cfd65bfdaab56.ior
+02/13/2014 22:39:52:707041 -I- REFTAB /release/product/its/its.7.1.3.ft/src/dbapp/src/gen_dbx.c_1037: table name not found <xyz_time_zone, >.
+02/13/2014 22:39:52:707059 -E- /release/product/its/its.7.1.3.ft/src/dbapp/src/gen_dbx.c_1002:  table id < 0.
+02/13/2014 22:39:52:707067 -I- Setting Timezone to Singapore
+02/14/2014 11:39:52:835039 -I- flex checkout FOOBAR_its 1.000 1 license
+02/14/2014 11:39:52:835076 -I- Connecting to <IMAGSYB1:client> DB as <janedoe>
+02/14/2014 11:39:52:837620 -I- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 11:39:52:837650 -I- SQL-Message Handler[5703]: <Changed language setting to 'us_english'.>
+02/14/2014 11:39:52:837675 -I- (61f0c50) New DBLIB connection
+02/14/2014 11:39:52:837696 -I- SQL (61f0c50) = select @@spid
+02/14/2014 11:39:52:838163 -I- query returned
+02/14/2014 11:39:52:838198 -I- server process ID = 491
+02/14/2014 11:39:52:838663 -E- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 11:39:52:838693 -I- SQL (61f0c50) = exec initializeDBProc_sp
+02/14/2014 11:39:52:839233 -I- query returned
+02/14/2014 11:39:52:857152 -I- select so.name as 'table', sc.name as 'column' from sysobjects so, syscolumns sc, xyz_shared_tables st where sc.id=so.id and so.type in('U', 'V') and so.name=st.st_name
+select * from xyz_parent_child_tables
+removeNonshared: The sqlparser rule xyz_sec_master,sm_id - xyz_swap_floating_leg_vw,sfl_s_id has been deleted.
+removeNonshared: The sqlparser rule xyz_swap_floating_leg_vw,sfl_s_id - xyz_sec_master,sm_id has been deleted.
+
+02/14/2014 11:39:52:857178 -I- SQL (61f0c50) = exec initializeDBLogin_sp
+02/14/2014 11:39:52:857651 -I- query returned
+02/14/2014 11:39:52:929243 -I- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 11:39:52:929273 -I- SQL-Message Handler[5703]: <Changed language setting to 'us_english'.>
+02/14/2014 11:39:52:929296 -I- (62b2d60) New DBLIB connection
+02/14/2014 11:39:52:929317 -I- SQL (62b2d60) = select @@spid
+02/14/2014 11:39:52:969657 -I- query returned
+02/14/2014 11:39:52:969695 -I- server process ID = 800
+02/14/2014 11:39:53:000044 -E- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 11:39:53:000075 -I- SQL (62b2d60) = exec initializeDBProc_sp
+02/14/2014 11:39:53:129838 -I- [ics] Returning GUI Service
+02/14/2014 11:39:53:134618 -I- query returned
+02/14/2014 11:39:53:137413 -I- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 11:39:53:137445 -I- SQL-Message Handler[5703]: <Changed language setting to 'us_english'.>
+02/14/2014 11:39:53:137475 -I- (62af800) New DBLIB connection
+02/14/2014 11:39:53:137497 -I- SQL (62af800) = select @@spid
+02/14/2014 11:39:53:137942 -I- query returned
+02/14/2014 11:39:53:137980 -I- server process ID = 2225
+02/14/2014 11:39:53:138338 -E- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 11:39:53:138364 -I- SQL (62af800) = exec initializeDBProc_sp
+02/14/2014 11:39:53:141441 -I- query returned
+02/14/2014 11:39:53:141535 -I- SQL (61f0c50) = create table #sm_sched_pool ( smp_sched_id int )
+02/14/2014 11:39:53:143493 -I- query returned
+02/14/2014 11:39:53:143533 -I- SQL (62b2d60) = EXECUTE getPrcPars_sp getLocalUpdDate_sp,1,0
+02/14/2014 11:39:53:242399 -I- query returned
+02/14/2014 11:39:53:242449 -I- SQLRPC (62af800) = getLocalUpdDate_sp @datetime(OUTPUT)
+02/14/2014 11:39:53:243092 -I- procedure returned
+02/14/2014 11:39:53:243133 -I- SQL (62af800) = select site_parent, site_status, site_offset from xyz_site
+02/14/2014 11:39:53:243826 -I- query returned
+02/14/2014 11:39:53:244036 -I- SQL (62af800) = SELECT dc_int FROM xyz_database_config WHERE dc_key = 'Odd/Even client/shared ids'
+02/14/2014 11:39:53:244789 -I- query returned
+02/14/2014 11:39:53:244872 -I- SQL (62af800) = SELECT dc_int FROM xyz_database_config WHERE dc_key = 'Odd/Even boundary id'
+02/14/2014 11:39:53:245396 -I- query returned
+02/14/2014 11:39:53:245974 -I- SQL (62b2d60) = select * from xyz_bs_codes order by bs_code asc
+02/14/2014 11:39:53:391716 -I- [ics] Polling connection from millennium attempted
+02/14/2014 11:39:53:407559 -I- query returned
+02/14/2014 11:39:53:432952 -I- File "issuer_tags.xml" doesn't exist.
+02/14/2014 11:39:53:433911 -I- SQL (62af800) = SELECT 'rv' = COUNT(*) FROM xyz_table_comment WHERE tc_table = 'xyz_p_control' AND tc_column like 'port_mask_config'
+02/14/2014 11:39:53:435150 -I- query returned
+02/14/2014 11:39:53:435975 -I- SQL (62b2d60) = select stat_code from xyz_audit_status
+02/14/2014 11:39:53:436651 -I- query returned
+02/14/2014 11:39:53:448518 -I- Initializing xyz_h_user_data xyz_h_user_data
+02/14/2014 11:39:53:448722 -I- SQL (62af800) = SELECT sysobjects.name, syscolumns.name, systypes.type, syscolumns.length, syscolumns.status FROM   sysobjects, syscolumns, systypes WHERE  sysobjects.id = syscolumns.id   AND  sysobjects.type in ('U', 'V')   AND  syscolumns.usertype = systypes.usertype ORDER BY sysobjects.name
+02/14/2014 11:39:53:585787 -I- query returned
+02/14/2014 11:39:53:608127 -I- Initializing xyz_s_user_data xyz_s_user_data
+02/14/2014 11:39:53:608603 -I- Initializing xyz_broker_user_data xyz_broker_user_data
+02/14/2014 11:39:53:608657 -I- Initializing xyz_adjustment_user_data xyz_adjustment_user_data
+02/14/2014 11:39:53:612726 -I- SQL (62b2d60) = select getdate()
+02/14/2014 11:39:53:613224 -I- query returned
+02/14/2014 11:39:53:613333 -I- SQL (62af800) = select tab_name, tab_key_col, tab_id from xyz_table_info
+02/14/2014 11:39:53:623154 -I- query returned
+02/14/2014 11:39:53:625011 -I- Processed 400 results
+02/14/2014 11:39:53:625310 -I- SQL (62af800) = select * from xyz_regulatory_agency 
+02/14/2014 11:39:53:626048 -I- query returned
+02/14/2014 11:39:53:626187 -I- SQL (62b2d60) = select * from xyz_customer order by cust_name
+02/14/2014 11:39:53:671293 -I- query returned
+02/14/2014 11:39:53:952356 -I- Processed 12325 results
+02/14/2014 11:39:53:988061 -I- SQL (62af800) = select * from xyz_time_zone 
+union all
+select * from s1..xyz_time_zone order by zone_desc
+02/14/2014 11:39:54:005636 -I- query returned
+02/14/2014 11:39:54:006154 -I- Processed 139 results
+02/14/2014 11:39:54:008045 -I- SQL (62b2d60) = select * from xyz_holiday_detail 
+union all
+select * from s1..xyz_holiday_detail order by hol_mnemonic
+02/14/2014 11:39:54:010591 -I- query returned
+02/14/2014 11:39:54:011220 -I- Processed 208 results
+02/14/2014 11:39:54:011624 -I- SQL (62af800) = select * from xyz_exchange order by exch_market_name
+02/14/2014 11:39:54:012546 -I- query returned
+02/14/2014 11:39:54:012876 -I- SQL (62b2d60) = SELECT * FROM xyz_fallback_strat WHERE fbs_type = 0 AND fbs_user_code = "PREM"
+02/14/2014 11:39:54:013856 -I- query returned
+02/14/2014 11:39:54:013996 -I- SQL (62b2d60) = SELECT * FROM xyz_fallback_strat WHERE fbs_type = 0 AND fbs_sec_code != ""
+02/14/2014 11:39:54:014751 -I- query returned
+02/14/2014 11:39:54:014903 -I- SQL (62b2d60) = SELECT * FROM xyz_fallback_strat WHERE fbs_type = 1 AND fbs_user_code = "PREM"
+02/14/2014 11:39:54:015680 -I- query returned
+02/14/2014 11:39:54:015744 -I- SQL (62b2d60) = SELECT * FROM xyz_fallback_strat WHERE fbs_type = 1 AND fbs_sec_code != ""
+02/14/2014 11:39:54:016428 -I- query returned
+02/14/2014 11:39:54:016514 -I- Processed 2 results
+02/14/2014 11:39:54:020467 -I- Processed 274 results
+02/14/2014 11:39:54:021148 -I- SQL (62b2d60) = select * from xyz_restricted_sec
+02/14/2014 11:39:54:021761 -I- query returned
+02/14/2014 11:39:54:021843 -I- SQL (62af800) = select * from xyz_account order by acct_code
+02/14/2014 11:39:54:022725 -I- query returned
+02/14/2014 11:39:54:225521 -I- Processed 14463 results
+02/14/2014 11:39:54:225669 -I- SQL (62b2d60) = select * from xyz_country 
+union all
+select * from s1..xyz_country order by cntry_name
+02/14/2014 11:39:54:228351 -I- query returned
+02/14/2014 11:39:54:229781 -I- Processed 251 results
+02/14/2014 11:39:54:229851 -I- SQL (62af800) = select * from xyz_location 
+02/14/2014 11:39:54:230570 -I- query returned
+02/14/2014 11:39:54:231273 -I- Processed 173 results
+02/14/2014 11:39:54:231299 -I- SQL (62b2d60) = EXECUTE getPrcPars_sp get_next_rowid_op_sp,1,0
+02/14/2014 11:39:54:233674 -I- query returned
+02/14/2014 11:39:54:233708 -I- Repository Id: ec42cc4a3c926e92d7ae04a4a284531ec1882a0f
+02/14/2014 11:39:54:233717 -I- Initializing Permissions
+02/14/2014 11:39:54:372050 -I- SQL (62af800) = select * from xyz_perm_control
+union all
+select * from s1..xyz_perm_control
+02/14/2014 11:39:54:373346 -I- query returned
+02/14/2014 11:39:54:759168 -I- SQL (62b2d60) = select * from xyz_system_status 
+02/14/2014 11:39:54:764357 -I- query returned
+02/14/2014 11:39:54:764542 -I- SQL (62af800) = select * from xyz_group_control 
+union all
+select * from s1..xyz_group_control order by group_user_name, group_group_name
+02/14/2014 11:39:54:792607 -I- query returned
+02/14/2014 11:39:54:805300 -I- Processed 835 results
+02/14/2014 11:39:54:805964 -I- SQL (62b2d60) = select * from xyz_issuer_classifiers 
+union all
+select * from s1..xyz_issuer_classifiers 
+02/14/2014 11:39:54:807404 -I- query returned
+02/14/2014 11:39:54:807513 -I- Processed 6 results
+02/14/2014 11:39:54:807560 -I- SQL (62af800) = select * from xyz_issuer_classification 
+union all
+select * from s1..xyz_issuer_classification 
+02/14/2014 11:39:54:809291 -I- query returned
+02/14/2014 11:39:54:814396 -E- Processed 1103 results
+02/14/2014 11:39:54:814739 -I- SQL (62b2d60) = SELECT pe1.* FROM xyz_price_env pe1, xyz_price_env pe2 WHERE pe1.env_group_id = pe2.env_group_id AND pe2.env_node_id = -4 AND pe2.env_tag IN  ("MLP","STANDARD")
+union all
+SELECT pe1.* FROM xyz_price_env pe1, s1..xyz_price_env pe2 WHERE pe1.env_group_id = pe2.env_group_id AND pe2.env_node_id = -4 AND pe2.env_tag IN  ("MLP","STANDARD")
+union all
+SELECT pe1.* FROM s1..xyz_price_env pe1, xyz_price_env pe2 WHERE pe1.env_group_id = pe2.env_group_id AND pe2.env_node_id = -4 AND pe2.env_tag IN  ("MLP","STANDARD")
+union all
+SELECT pe1.* FROM s1..xyz_price_env pe1, s1..xyz_price_env pe2 WHERE pe1.env_group_id = pe2.env_group_id AND pe2.env_node_id = -4 AND pe2.env_tag IN  ("MLP","STANDARD")
+02/14/2014 11:39:54:831380 -I- query returned
+02/14/2014 11:39:55:070006 -E- Processed 134 results
+02/14/2014 11:39:55:073549 -I- flex checkout B_EQT 1.000 1 license
+02/14/2014 11:39:55:073653 -I- SQL (62af800) = select * from xyz_sec_def_attribs 
+02/14/2014 11:39:55:074826 -I- query returned
+02/14/2014 11:39:55:077006 -I- Processed 151 results
+02/14/2014 11:39:55:080642 -E- flex checkout X_EQT 1.000 1 license
+02/14/2014 11:39:55:084417 -I- flex checkout A_EQT 1.000 1 license
+02/14/2014 11:39:55:087843 -I- flex checkout CB 1.000 1 license
+02/14/2014 11:39:55:091748 -I- flex checkout RESET_WIZ 1.000 1 license
+02/14/2014 11:39:59:964865 -I- Reading portfolio columns categories setting file '/apps/FOOBAR/version/prod/lib/defaults/column_descriptions.csv'
+02/14/2014 11:40:04:279995 -I-  Portfolio Refresh
+02/14/2014 11:40:32:835262 -I- Gathering Portfolio View <~PM_TEST>
+02/14/2014 11:40:32:894080 -I- Portfolio <~PM_TEST> retrieved from central database.
+02/14/2014 11:40:36:173932 -I- Start holding_query; loading holdings for Portfolio ~PM_TEST
+02/14/2014 11:40:38:703691 -M- Retrieved IFE form file /apps/FOOBAR/version/prod/lib/defaults/xfile/PORTFOLIOFRAME.xml for handle PORTFOLIO FRAME
+02/14/2014 11:40:38:703861 -M- [ics] <-- Processing msg 133 on main reply queue: New frame <~PM_TEST - Portfolio>, id 3 for client: 0
+02/14/2014 11:42:05:007363 -M- [ics] <-- Processing msg 177 on main reply queue: New frame <Portfolio <~PM_TEST> Filters>, id 4 for client: 0
+02/14/2014 11:42:11:034015 -I- Processing new portfolio filters
+02/14/2014 11:42:17:737394 -I- Start holding_query; loading holdings for Portfolio ~PM_TEST
+02/14/2014 19:36:44:824496 -M- [ics] <-- Processing msg 9368 on main reply queue: New frame <Portfolio <~PM_TEST> Filters>, id 66 for client: 0
+02/14/2014 19:36:59:827823 -I- Processing new portfolio filters
+02/14/2014 19:37:06:312544 -I- Start holding_query; loading holdings for Portfolio ~PM_TEST
+02/14/2014 19:40:26:809807 -M- [ics] <-- Processing msg 9531 on main reply queue: New frame <Portfolio <~PM_TEST> Filters>, id 72 for client: 0
+02/14/2014 23:14:17:754343 -M- [ics] <-- Enqueueing msg 14433 for client 136238131
+02/14/2014 23:14:18:275303 -M- [ics] <-- Returning msg 14433 to client 136238131
+02/14/2014 23:14:19:755189 -M- [ics] <-- Processing msg 14434 on main reply queue: Frame update (121 bytes) for 0
+02/14/2014 23:14:19:755222 -M- [ics] <-- Enqueueing msg 14434 for client 136238131
+02/14/2014 23:14:20:303425 -M- [ics] <-- Returning msg 14434 to client 136238131
+02/14/2014 11:40:32:835262 -I- Gathering Portfolio View <PM_TESTXYZ>
+02/14/2014 23:14:21:755908 -M- [ics] <-- Processing msg 14435 on main reply queue: Frame update (121 bytes) for 0
+02/14/2014 23:14:21:755952 -M- [ics] <-- Enqueueing msg 14435 for client 136238131
+02/14/2014 23:14:22:346906 -M- [ics] <-- Returning msg 14435 to client 136238131
+02/14/2014 23:14:22:719967 -I- SQL (62b2d60) = select * from xyz_tact_history where hist_timestamp >= "Feb 14 2014 10:14:12:680AM" 
+union all
+select * from s1..xyz_tact_history where hist_timestamp >= "Feb 14 2014 10:14:12:680AM" order by hist_timestamp, hist_id
+02/14/2014 23:14:22:742559 -I- query returned
+02/14/2014 23:14:22:804937 -I- Processed 2408 results
+02/14/2014 23:14:22:820000 -I- SQL (62b2d60) = select * from xyz_p_control where port_id in(421082526,421082640)
+02/14/2014 23:14:23:013076 -I- query returned
+02/14/2014 23:14:23:013393 -I- SQL (19b78680) = select * from xyz_h_user_data where hud_h_id = 421082526
+02/14/2014 23:14:23:321769 -I- query returned
+02/14/2014 23:14:23:322069 -I- SQL (62af800) = select * from xyz_h_user_data where hud_h_id = 421082640
+02/14/2014 23:14:23:324008 -E- query returned
+02/14/2014 23:14:23:324287 -I- Finished processing xyz_tact_history updates
