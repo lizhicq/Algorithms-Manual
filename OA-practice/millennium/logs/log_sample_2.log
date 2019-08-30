@@ -1,0 +1,198 @@
+02/14/2014 06:10:57:774621 -I- Messages of severity "-M-" and above will now be logged.
+02/14/2014 06:10:57:774846 -I- Running Trading System version 7.1.3.24.ft.rh6.m64.lnx . Log file setup complete.
+02/14/2014 06:10:57:774914 -I- cpt_server started with command line "/apps/FOOBAR/version/prod/bin/cpt_server epword johnsmith /apps/FOOBAR/users/johnsmith/its/johnsmith_140214_061056_c4737a97169ed25.pw activator IOR:010000001600000049444c3a4961732f416374697661746f723a312e30000000010000000000000064000000010102000c00000031302e38322e31312e3431007bae00000e000000febc8cfb5200007d07000000000000000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100 rH+FkNNE9Wogm6OQ8IUl161lRA4= PACKETSIZE 4096 root /apps/FOOBAR/objroot LP CLIENT_IP 10.90.52.58 SEAT_ID 8d71e601-5195-43d5-b1bf-b8e1a74b23ad SESSION_ID ceb83960-dc99-4bc7-a09d-e5cea4096772 USER_AGENT jfe cmlib/7.1.4.53.rh6.m64.lnx FOOBAR Software Windows 7 6.1 x86 JavaTM SE Runtime Environment 1.7.0_25-b17 LEDGER REPORT_SUPPORT END timeout 6000 svr_name johnsmith_140214_061056_c4737a97169ed25 "
+02/14/2014 06:10:57:783499 -I- [ics] The server is ready to queue requests
+02/14/2014 06:10:57:783711 -I- I_USER_PATH   is /apps/FOOBAR/users/johnsmith/its
+02/14/2014 06:10:57:783729 -I- I_GROUP_PATH  is /apps/FOOBAR/groups/admin
+02/14/2014 06:10:57:783740 -I- I_SYSTEM_PATH is /apps/FOOBAR/version/prod/lib/defaults
+02/14/2014 06:10:57:784345 -I- [ics] Registering server implementation with ORB
+02/14/2014 06:10:57:807922 -I- SQL-Message Handler[5703]: <Changed language setting to 'us_english'.>
+02/14/2014 06:10:57:807970 -I- (44b09c0) New DBLIB connection
+02/14/2014 06:10:57:807996 -I- SQL (44b09c0) = select @@spid
+02/14/2014 06:10:57:809640 -I- query returned
+02/14/2014 06:10:57:809682 -I- server process ID = 1637
+02/14/2014 06:10:57:823467 -I- SQL (44b09c0) = EXECUTE getPrcPars_sp getUserDbIdRSA_sp,1,0
+02/14/2014 06:10:57:830808 -I- query returned
+02/14/2014 06:10:57:830876 -I- SQLRPC (44b09c0) = getUserDbIdRSA_sp @u_name="johnsmith", @u_id(OUTPUT)
+02/14/2014 06:10:57:832873 -I- procedure returned
+02/14/2014 06:10:57:832918 -I- SQL (44b09c0) = EXECUTE getPrcPars_sp getUserSetting_sp,1,0
+02/14/2014 06:10:57:836159 -I- query returned
+02/14/2014 06:10:57:836203 -I- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="GXD_TIMEOUT_SEC", @ui_val(OUTPUT)
+02/14/2014 06:10:57:841592 -I- procedure returned
+02/14/2014 06:10:57:841672 -I- SQLRPC (44b09c0) = getUserDbIdRSA_sp @u_name="johnsmith", @u_id(OUTPUT), @useExternValid(OUTPUT)
+02/14/2014 06:10:57:845047 -I- procedure returned
+02/14/2014 06:10:57:845090 -I- SQL (44b09c0) = EXECUTE getPrcPars_sp validateLogin_sp,1,0
+02/14/2014 06:10:57:849752 -E- query returned
+02/14/2014 06:10:57:849792 -I- SQLRPC (44b09c0) = validateLogin_sp @u_id=120001382, @u_pwd=***************************
+02/14/2014 06:10:57:852201 -I- procedure returned
+02/14/2014 06:10:57:852230 -E- SQL (44b09c0) = EXECUTE getPrcPars_sp getUsrStat_sp,1,0
+02/14/2014 06:10:57:855536 -I- query returned
+02/14/2014 06:10:57:855572 -I- SQLRPC (44b09c0) = getUsrStat_sp @ui_user_id=120001382, @ui_val(OUTPUT)
+02/14/2014 06:10:57:857246 -I- procedure returned
+02/14/2014 06:10:57:857287 -I- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="LAST_GXD_CHANGE_DT", @ui_val(OUTPUT)
+02/14/2014 06:10:57:859286 -E- procedure returned
+02/14/2014 06:10:57:859320 -I- SQL (44b09c0) = EXECUTE getPrcPars_sp getSpecialLoginSetting_sp,1,0
+02/14/2014 06:10:57:862519 -I- query returned
+02/14/2014 06:10:57:862559 -I- SQLRPC (44b09c0) = getSpecialLoginSetting_sp @ui_key="GXD_EXP", @ui_val(OUTPUT)
+02/14/2014 06:10:57:864223 -E- procedure returned
+02/14/2014 06:10:57:864277 -I- SQLRPC (44b09c0) = getUserDbIdRSA_sp @u_name="johnsmith", @u_id(OUTPUT)
+02/14/2014 06:10:57:866073 -I- procedure returned
+02/14/2014 06:10:57:866119 -I- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="FULL_NAME", @ui_val(OUTPUT)
+02/14/2014 06:10:57:868163 -I- procedure returned
+02/14/2014 06:10:57:868212 -E- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="COMPANY_CODE", @ui_val(OUTPUT)
+02/14/2014 06:10:57:870082 -I- procedure returned
+02/14/2014 06:10:57:870129 -I- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="SYBASE_LOGIN", @ui_val(OUTPUT)
+02/14/2014 06:10:58:090730 -I- procedure returned
+02/14/2014 06:10:58:090805 -I- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="SYBASE_GXD", @ui_val(OUTPUT)
+02/14/2014 06:10:58:095928 -E- procedure returned
+02/14/2014 06:10:58:096028 -I- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="USER_CODE", @ui_val(OUTPUT)
+02/14/2014 06:10:58:097932 -I- procedure returned
+02/14/2014 06:10:58:097979 -I- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="ACCESS_LEVEL", @ui_val(OUTPUT)
+02/14/2014 06:10:58:099946 -I- procedure returned
+02/14/2014 06:10:58:099995 -E- SQLRPC (44b09c0) = getUserSetting_sp @ui_user_id=120001382, @u_pwd=***************************, @ui_key="APP_RUN_AS", @ui_val(OUTPUT)
+02/14/2014 06:10:58:101919 -I- procedure returned
+02/14/2014 06:10:58:101991 -I- SQL (44b09c0) = EXECUTE getPrcPars_sp writeUserLog_sp,1,0
+02/14/2014 06:10:58:105483 -I- query returned
+02/14/2014 06:10:58:105525 -I- SQLRPC (44b09c0) = writeUserLog_sp @ul_name="johnsmith", @ul_event="CMD LN LOGIN"
+02/14/2014 06:10:58:107751 -I- procedure returned
+02/14/2014 06:10:58:124603 -E- REFTAB /release/product/its/its.7.1.3.ft/src/dbapp/src/gen_dbx.c_1037: table name not found <xyz_time_zone, >.
+02/14/2014 06:10:58:124622 -E- /release/product/its/its.7.1.3.ft/src/dbapp/src/gen_dbx.c_1002:  table id < 0.
+02/14/2014 06:10:58:124631 -I- Setting Timezone to EST5EDT
+02/14/2014 06:10:58:151076 -I- flex checkout FOOBAR_its 1.000 1 license
+02/14/2014 06:10:58:151111 -E- Connecting to <FOOBARSYBDEV:client> DB as <johnsmith>
+02/14/2014 06:10:58:254535 -I- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 06:10:58:254571 -I- SQL-Message Handler[5703]: <Changed language setting to 'us_english'.>
+02/14/2014 06:10:58:254597 -I- (462c940) New DBLIB connection
+02/14/2014 06:10:58:254617 -I- SQL (462c940) = select @@spid
+02/14/2014 06:10:58:255385 -I- query returned
+02/14/2014 06:10:58:255422 -I- server process ID = 1219
+02/14/2014 06:10:58:256118 -E- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 06:10:58:256143 -I- SQL (462c940) = exec initializeDBProc_sp
+02/14/2014 06:10:58:256988 -I- query returned
+02/14/2014 06:10:58:273944 -I- select so.name as 'table', sc.name as 'column' from sysobjects so, syscolumns sc, xyz_shared_tables st where sc.id=so.id and so.type in('U', 'V') and so.name=st.st_name
+select * from xyz_parent_child_tables
+removeNonshared: The sqlparser rule xyz_sec_master,sm_id - xyz_swap_floating_leg_vw,sfl_s_id has been deleted.
+removeNonshared: The sqlparser rule xyz_swap_floating_leg_vw,sfl_s_id - xyz_sec_master,sm_id has been deleted.
+
+02/14/2014 06:10:58:273967 -I- SQL (462c940) = exec initializeDBLogin_sp
+02/14/2014 06:10:58:274667 -I- query returned
+02/14/2014 06:10:58:453768 -I- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 06:10:58:453813 -I- SQL-Message Handler[5703]: <Changed language setting to 'us_english'.>
+02/14/2014 06:10:58:453860 -I- (46e3470) New DBLIB connection
+02/14/2014 06:10:58:453897 -I- SQL (46e3470) = select @@spid
+02/14/2014 06:10:58:454582 -I- query returned
+02/14/2014 06:10:58:454619 -I- server process ID = 2250
+02/14/2014 06:10:58:455233 -E- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 06:10:58:455259 -I- SQL (46e3470) = exec initializeDBProc_sp
+02/14/2014 06:10:58:456066 -I- query returned
+02/14/2014 06:10:58:784424 -I- [ics] PID: 15354
+02/14/2014 06:10:58:784450 -I- [ics] IOR:010000001d00000049444c3a5365727665722f436f6d707574655365727665723a312e3000000000010000000000000064000000010102000c00000031302e39302e31332e313200eb8800000e000000fec1f9fd5200003bfa000000000000000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100
+02/14/2014 06:10:58:796942 -I- [ics] Returning GUI Service
+02/14/2014 06:10:58:800648 -I- [ics] Polling connection from johnsmith attempted
+02/14/2014 06:10:58:800817 -I- [ics] Published IOR in /apps/FOOBAR/objroot/iorroot/hosts/imag666lx4/johnsmith_140214_061056_c4737a97169ed25.ior
+02/14/2014 06:10:59:042239 -I- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 06:10:59:042275 -I- SQL-Message Handler[5703]: <Changed language setting to 'us_english'.>
+02/14/2014 06:10:59:042309 -I- (46e3d30) New DBLIB connection
+02/14/2014 06:10:59:042333 -I- SQL (46e3d30) = select @@spid
+02/14/2014 06:10:59:043125 -I- query returned
+02/14/2014 06:10:59:043157 -I- server process ID = 1061
+02/14/2014 06:10:59:043857 -E- SQL-Message Handler[5701]: <Changed database context to 'client'.>
+02/14/2014 06:10:59:043883 -I- SQL (46e3d30) = exec initializeDBProc_sp
+02/14/2014 06:10:59:044687 -I- query returned
+02/14/2014 06:10:59:044808 -I- SQL (462c940) = create table #sm_sched_pool ( smp_sched_id int )
+02/14/2014 06:10:59:050164 -I- query returned
+02/14/2014 06:10:59:050202 -I- SQL (46e3470) = EXECUTE getPrcPars_sp getLocalUpdDate_sp,1,0
+02/14/2014 06:10:59:053205 -I- query returned
+02/14/2014 06:10:59:053254 -I- SQLRPC (46e3d30) = getLocalUpdDate_sp @datetime(OUTPUT)
+02/14/2014 06:10:59:054152 -I- procedure returned
+02/14/2014 06:10:59:054190 -I- SQL (46e3d30) = select site_parent, site_status, site_offset from xyz_site
+02/14/2014 06:10:59:055618 -I- query returned
+02/14/2014 06:10:59:055816 -I- SQL (46e3d30) = SELECT dc_int FROM xyz_database_config WHERE dc_key = 'Odd/Even client/shared ids'
+02/14/2014 06:10:59:057037 -I- query returned
+02/14/2014 06:10:59:057120 -I- SQL (46e3d30) = SELECT dc_int FROM xyz_database_config WHERE dc_key = 'Odd/Even boundary id'
+02/14/2014 06:10:59:058118 -I- query returned
+02/14/2014 06:10:59:058684 -I- SQL (46e3470) = select * from xyz_bs_codes order by bs_code asc
+02/14/2014 06:10:59:059905 -I- query returned
+02/14/2014 06:10:59:063094 -I- File "issuer_tags.xml" doesn't exist.
+02/14/2014 06:10:59:064007 -I- SQL (46e3d30) = SELECT 'rv' = COUNT(*) FROM xyz_table_comment WHERE tc_table = 'xyz_p_control' AND tc_column like 'port_mask_config'
+02/14/2014 06:10:59:065452 -I- query returned
+02/14/2014 06:10:59:066284 -I- SQL (46e3470) = select stat_code from xyz_audit_status
+02/14/2014 06:10:59:067340 -I- query returned
+02/14/2014 06:10:59:081677 -I- Initializing xyz_h_user_data xyz_h_user_data
+02/14/2014 06:10:59:081874 -I- SQL (46e3d30) = SELECT sysobjects.name, syscolumns.name, systypes.type, syscolumns.length, syscolumns.status FROM   sysobjects, syscolumns, systypes WHERE  sysobjects.id = syscolumns.id   AND  sysobjects.type in ('U', 'V')   AND  syscolumns.usertype = systypes.usertype ORDER BY sysobjects.name
+02/14/2014 06:10:59:163204 -I- query returned
+02/14/2014 06:10:59:173578 -I- Initializing xyz_s_user_data xyz_s_user_data
+02/14/2014 06:10:59:174020 -I- Initializing xyz_broker_user_data xyz_broker_user_data
+02/14/2014 06:10:59:174069 -I- Initializing xyz_adjustment_user_data xyz_adjustment_user_data
+02/14/2014 06:10:59:178106 -I- SQL (46e3470) = select getdate()
+02/14/2014 06:10:59:178927 -I- query returned
+02/14/2014 06:10:59:179039 -I- SQL (46e3d30) = select tab_name, tab_key_col, tab_id from xyz_table_info
+02/14/2014 06:10:59:180337 -I- query returned
+02/14/2014 06:10:59:182178 -I- Processed 400 results
+02/14/2014 06:10:59:182479 -I- SQL (46e3d30) = select * from xyz_regulatory_agency 
+02/14/2014 06:10:59:183554 -I- query returned
+02/14/2014 06:10:59:183677 -I- SQL (46e3470) = select * from xyz_customer order by cust_name
+02/14/2014 06:10:59:239836 -I- query returned
+02/14/2014 06:10:59:497465 -I- Processed 12203 results
+02/14/2014 06:10:59:500167 -I- SQL (46e3d30) = select * from xyz_time_zone 
+union all
+select * from s1..xyz_time_zone order by zone_desc
+02/14/2014 06:10:59:502887 -I- query returned
+02/14/2014 06:10:59:503761 -I- Processed 139 results
+02/14/2014 06:10:59:507450 -I- SQL (46e3470) = select * from xyz_holiday_detail 
+union all
+select * from s1..xyz_holiday_detail order by hol_mnemonic
+02/14/2014 06:10:59:510166 -I- query returned
+02/14/2014 06:10:59:511012 -I- Processed 208 results
+02/14/2014 06:10:59:511391 -I- SQL (46e3d30) = select * from xyz_exchange order by exch_market_name
+02/14/2014 06:10:59:512891 -I- query returned
+02/14/2014 06:10:59:513100 -I- SQL (46e3470) = SELECT * FROM xyz_fallback_strat WHERE fbs_type = 0 AND fbs_user_code = "JARM"
+02/14/2014 06:10:59:514388 -I- query returned
+02/14/2014 06:10:59:514516 -I- SQL (46e3470) = SELECT * FROM xyz_fallback_strat WHERE fbs_type = 0 AND fbs_sec_code != ""
+02/14/2014 06:10:59:515658 -I- query returned
+02/14/2014 06:10:59:515768 -I- SQL (46e3470) = SELECT * FROM xyz_fallback_strat WHERE fbs_type = 1 AND fbs_user_code = "JARM"
+02/14/2014 06:10:59:516832 -I- query returned
+02/14/2014 06:10:59:516943 -I- SQL (46e3470) = SELECT * FROM xyz_fallback_strat WHERE fbs_type = 1 AND fbs_sec_code != ""
+02/14/2014 06:10:59:518097 -I- query returned
+02/14/2014 06:10:59:518182 -I- Processed 2 results
+02/14/2014 06:10:59:521964 -I- Processed 274 results
+02/14/2014 06:10:59:522680 -I- SQL (46e3470) = select * from xyz_restricted_sec
+02/14/2014 06:10:59:523759 -I- query returned
+02/14/2014 06:10:59:523852 -I- SQL (46e3d30) = select * from xyz_account order by acct_code
+02/14/2014 06:10:59:525258 -I- query returned
+02/14/2014 06:10:59:609155 -I- Processed 14427 results
+02/14/2014 06:10:59:609284 -I- SQL (46e3470) = select * from xyz_country 
+union all
+select * from s1..xyz_country order by cntry_name
+02/14/2014 06:10:59:611920 -I- query returned
+02/14/2014 06:10:59:613260 -I- Processed 251 results
+02/14/2014 06:10:59:613327 -I- SQL (46e3d30) = select * from xyz_location 
+02/14/2014 06:10:59:614808 -I- query returned
+02/14/2014 06:10:59:615337 -I- Processed 173 results
+02/14/2014 06:10:59:615359 -I- SQL (46e3470) = EXECUTE getPrcPars_sp get_next_rowid_op_sp,1,0
+02/14/2014 06:10:59:617190 -I- query returned
+02/14/2014 06:10:59:617238 -I- Repository Id: ec42cc4a3c926e92d7ae04a4a284531ec1882a0f
+02/14/2014 06:10:59:617252 -I- Initializing Permissions
+02/14/2014 06:10:59:624028 -I- SQL (46e3d30) = select * from xyz_perm_control
+union all
+02/14/2014 06:26:22:586539 -I- SQL (1667db80) = delete from xyz_registry where reg_key = "gui.johnsmith.*.frame.*.LEDGER FRAME.form.*.Portfolios.REPORT_SUPPORT - Ledger.cols.order" or reg_key like "gui.johnsmith.*.frame.*.LEDGER FRAME.form.*.Portfolios.REPORT_SUPPORT - Ledger.cols.order.%"
+02/14/2014 20:55:30:279618 -I- (44b09c0) New DBLIB connection
+02/14/2014 20:55:30:279651 -I- SQL (44b09c0) = select @@spid
+02/14/2014 20:55:30:281658 -I- query returned
+02/14/2014 20:55:30:281680 -I- server process ID = 1934
+02/14/2014 20:55:30:283513 -I- SQL-Message Handler[5701]: <Changed database context to 'imagpw'.>
+02/14/2014 20:55:30:283543 -I- SQLRPC (44b09c0) = writeUserLog_sp @ul_name="johnsmith", @ul_event="SERVER LOGOFF"
+02/14/2014 20:55:30:286781 -I- procedure returned
+02/14/2014 20:55:30:293853 -I- Closing Down Pricing Service
+02/14/2014 20:55:30:295188 -I- [ics] [+] ItsCSServerCoordinator::terminate()
+02/14/2014 20:55:30:295294 -M- [ics] ItsCSLogin::dtor(); pendingId_ = 1
+02/14/2014 20:55:30:295412 -M- [ics] <-- Processing msg 18415 on main reply queue: Kill server reply message: <>
+02/14/2014 20:55:30:295447 -M- [ics] <-- Enqueueing msg 18415 for client 103557370
+02/14/2014 20:55:30:490430 -M- [ics] <-- Returning msg 18415 to client 103557370
+02/14/2014 20:55:30:740791 -I- [ics] Server got disconnect from client 103557370
+02/14/2014 20:55:30:740808 -M- [ics] ItsCSClientImage::terminate()
+02/14/2014 20:55:31:096188 -M- [ics] [+] ItsCSClientImage::dtor()
+02/14/2014 20:55:31:096367 -M- [ics] [-] ItsCSClientImage::dtor()
+02/14/2014 20:55:31:096383 -I- [ics] Exiting: last client is gone
+02/14/2014 20:55:31:096398 -I- [ics] CS service loop terminated.
+02/14/2014 20:55:35:389088 -I- [ics] [-] ItsCSServerCoordinator::terminate()
