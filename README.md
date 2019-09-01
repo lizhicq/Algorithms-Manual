@@ -1,6 +1,5 @@
 # Algorithms-Manual
 
-
 > One has no future if one couldn't teach themself.
 
 > Future belongs to self-helped people.
